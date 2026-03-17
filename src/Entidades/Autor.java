@@ -1,11 +1,11 @@
-package Entidades;
+package entidades;
 
 public class Autor {
-	
+
 	private String nome;
 
 	public Autor() {
-		
+
 	}
 
 	public Autor(String nome) {

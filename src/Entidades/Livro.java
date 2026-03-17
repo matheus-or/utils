@@ -1,11 +1,11 @@
-package Entidades;
+package entidades;
 
 public class Livro {
-	
+
 	private String nome;
 
 	public Livro() {
-		
+
 	}
 
 	public Livro(String nome) {
