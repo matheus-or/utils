@@ -5,6 +5,8 @@ import java.util.Date;
 
 public class DateUtil {
 
+    private DateUtil() {
+    }
 
     public static void buscarDataAlterada() {
 
@@ -32,6 +34,4 @@ public class DateUtil {
         cal.set(Calendar.DAY_OF_MONTH, 1);
         return cal.getTime();
     }
-
-
 }
